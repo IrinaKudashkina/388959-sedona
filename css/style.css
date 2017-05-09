@@ -4,13 +4,196 @@ body {
   line-height: 1.5;
   font-weight: 400;
   font-family: "PT Sans", "Arial", sans-serif;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
   color: rgb(51, 51, 51);
+  background: blue;/*убрать потом*/
 }
 
-h2 {
+html {
+  background-color: yellow;/*убрать потом*/
+}
+
+h2, h3, h4 {
   font-size: 21px;
   line-height: 1.24;
   color: rgb(0, 0, 0);
+
+}
+
+.features h2 {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+
+}
+
+
+
+a {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background: white; /*убрать потом*/
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.main-navigation li {
+  float: left;
+  list-style-type: none;
+  margin-top: 16px;
+  margin-bottom: 18px;
+}
+
+.main-navigation li:first-child {
+  margin-left: 32px;
+  margin-right: 148px;
+}
+
+.main-navigation li:nth-child(2) {
+  margin-right: 388px;
+}
+
+.main-navigation li:nth-child(3) {
+  margin-right: 163px;
+}
+
+.header-logo {
+  position: absolute;
+  margin-left: 531px;
+}
+
+main .invitation {
+  background-image: url("../img/photo-main.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 508px;
+  margin-bottom: 61px;
+}
+
+.five-reasons {
+  margin-bottom: 53px;
+}
+
+.feature-real-town {
+    background-color: yellow;
+}
+
+.feature-description {
+  float:left;
+  width: 306px;
+  padding-left: 47px;
+  padding-right: 47px;
+  padding-top: 24px;
+  padding-bottom: 45px;
+
+}
+
+.feature-photo {
+  float:left;
+  width: 800px;
+  background-color: blue;
+}
+
+.description-town { /*если одинаково слить*/
+  float:left;
+  width: 290px;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 130px;
+  padding-bottom: 68px;
+}
+
+.description-town:first-child {
+  background: url("../img/icon-house.png") no-repeat 50% 59px;
+}
+
+.description-town:nth-child(2) {
+  background: url("../img/icon-meal.png") no-repeat 50% 58px;
+}
+
+.description-town:last-child {
+  background: url("../img/icon-souvenir.png") no-repeat 50% 55px;
+}
+
+
+.feature-real-town,
+.feature-bridge {
+  background-color: rgb(129, 179, 210);
+  color: rgb(255, 255, 255);
+}
+
+.features-other .feature-description {
+  width: 270px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.feature-description h3 {
+  width: 151px;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 26px;
+}
+
+.description-town h4 {
+  margin-bottom: 22px;
+}
+
+.features-other h3 {
+  color: rgb(0, 0, 0);
+}
+
+.feature-number {
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+.features-other {
+  background-color: rgb(238, 238, 238);
+}
+
+.features {
+  margin-bottom: 47px;
+}
+
+.hotel b {
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.hotel p {
+  line-height: 1.7;
+}
+
+.hotel h2 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(118, 99, 87)
+}
+
+.main-content .container::after {
+  width: 1200px;
+  height: 593px;
+  background-image: url("../img/map.jpg");
+}
+
+.footer-hashtag,
+.footer-social,
+.footer-copyright {
+  float:left;
+  width: 400px;
 }
